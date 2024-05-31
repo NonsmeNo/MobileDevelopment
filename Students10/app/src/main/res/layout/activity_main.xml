@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="357dp"
+        android:layout_height="340dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492">
+
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="118dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnChange"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhone"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="118dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnCreate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.031"
+            app:layout_constraintStart_toEndOf="@+id/btnChange"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhone"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvStudent"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#682087"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck"
+            tools:text="Студент:" />
+
+        <TextView
+            android:id="@+id/tvSurname"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:textColor="#682087"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvStudent"
+            tools:ignore="TextSizeCheck"
+            tools:text="Фамилия" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:textColor="#682087"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSurname"
+            tools:ignore="TextSizeCheck"
+            tools:text="Имя" />
+
+        <TextView
+            android:id="@+id/tvPatronym"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:textColor="#682087"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvName"
+            tools:ignore="TextSizeCheck"
+            tools:text="Отчество" />
+
+        <TextView
+            android:id="@+id/tvFaculty"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#682087"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPatronym"
+            tools:ignore="TextSizeCheck"
+            tools:text="Факультет" />
+
+        <TextView
+            android:id="@+id/tvGroup"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:textColor="#682087"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFaculty"
+            tools:ignore="TextSizeCheck"
+            tools:text="Группа" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:textColor="#682087"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvGroup"
+            tools:ignore="TextSizeCheck"
+            tools:text="Телефон" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

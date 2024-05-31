@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Students1.0</string>
+    <string name="etPatronym">Введите отчество</string>
+    <string name="etName">Введите имя</string>
+    <string name="etGroup">Введите номер группы</string>
+    <string name="etFaculty">Введите факультет</string>
+    <string name="btnCancel">Отмена</string>
+    <string name="btnSave">Сохранить</string>
+    <string name="etPhone">Введите телефон</string>
+    <string name="etSurname">Введите фамилию</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="man">TODO</string>
+    <string name="man2">TODO</string>
+    <string name="man3">TODO</string>
+    <string name="btnChange">Изменить</string>
+    <string name="btnCreate">Создать</string>
+</resources>

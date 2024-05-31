@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">gas</string>
+    <string name="preference_key_university_list">university_list</string>
+    <string name="preference_key_faculty_list">faculty_list</string>
+    <string-array name="TypeGAS">
+        <item>АИ-92</item>
+        <item>АИ-95</item>
+        <item>Газ</item>
+        <item>ДТ</item>
+    </string-array>
+</resources>

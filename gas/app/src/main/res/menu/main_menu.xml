@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miNewGasStation"
+        android:icon="@android:drawable/ic_input_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Добавить заправку" />
+    <item
+        android:id="@+id/miUpdateGasStation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Изменить заправку" />
+    <item
+        android:id="@+id/miDeleteGasStation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Удалить заправку" />
+
+</menu>
